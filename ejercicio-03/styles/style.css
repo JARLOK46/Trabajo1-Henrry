@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #efefef;
+  color: #111111;
+}
+
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.area {
+  width: min(100%, 700px);
+  min-height: 420px;
+  background: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  width: 240px;
+  background: #f1ecec;
+  padding: 20px;
+  color: #444444;
+}
+
+.caja h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.caja p {
+  line-height: 1.6;
+}
